@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function JournalForm({ setResult, fetchHistory }) {
-  const API = `${import.meta.env.VITE_API_URL}/journal/analyze`;
+  const API = `${import.meta.env.VITE_API_URL}/journal`;
 
   const [text, setText] = useState("");
   const [loading, setLoading] = useState(false);

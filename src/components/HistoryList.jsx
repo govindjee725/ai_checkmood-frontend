@@ -4,7 +4,7 @@ export default function HistoryList({
   history,
   fetchHistory
 }) {
-  const API = `${import.meta.env.VITE_API_URL}/journal/analyze`;
+  const API = `${import.meta.env.VITE_API_URL}/journal`;
 
   const [selected, setSelected] = useState(null);
 
