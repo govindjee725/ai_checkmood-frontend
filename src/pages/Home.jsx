@@ -6,7 +6,7 @@ import ResponseCard from "../components/ResponseCard";
 import HistoryList from "../components/HistoryList";
 
 export default function Home() {
-  const API = import.meta.env.VITE_API_URL;;
+  const API = `${import.meta.env.VITE_API_URL}/journal`;
 
   const [result, setResult] = useState(null);
   const [history, setHistory] = useState([]);
