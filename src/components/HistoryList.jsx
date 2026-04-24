@@ -44,7 +44,7 @@ export default function HistoryList({
                     e.stopPropagation();
                     deleteItem(item._id);
                   }}
-                  className="text-red-400"
+                  className="text-red-400 cursor-pointer hover:text-red-300 transition"
                 >
                   Delete
                 </button>
